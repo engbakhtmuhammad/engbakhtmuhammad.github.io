@@ -1367,7 +1367,7 @@ button {
 
 .border-accent1 {
   --tw-border-opacity: 1;
-  /* Change Color */
+  /* TODO: Change Color */
   border-color: rgb(0	168	244 / var(--tw-border-opacity));
 }
 
