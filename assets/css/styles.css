@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #41C4FF;
+  border-color: #c11a41;
   /* 2 */
 }
 
@@ -40,7 +40,7 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -79,7 +79,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -348,7 +348,8 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -509,7 +510,9 @@ button {
   transition-duration: 300ms;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -519,16 +522,16 @@ button {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -536,24 +539,24 @@ button {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
 ::-webkit-backdrop {
@@ -566,16 +569,16 @@ button {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -583,24 +586,24 @@ button {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
 ::backdrop {
@@ -613,16 +616,16 @@ button {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -630,24 +633,24 @@ button {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
 }
 
 .container {
@@ -1274,7 +1277,7 @@ button {
   gap: 5px;
 }
 
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+.space-y-2> :not([hidden])~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
@@ -1368,7 +1371,7 @@ button {
 .border-accent1 {
   --tw-border-opacity: 1;
   /* TODO: Change Color */
-  border-color: rgb(0	168	244 / var(--tw-border-opacity));
+  border-color: rgb(193 26 65 / var(--tw-border-opacity)); /* Theme Color*/
 }
 
 .border-gray-300 {
@@ -1388,7 +1391,7 @@ button {
 
 .bg-accent1 {
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -1874,7 +1877,7 @@ button {
 
 .text-accent1 {
   --tw-text-opacity: 1;
-  color: rgb(0	168	244 / var(--tw-text-opacity));
+  color: rgb(193 26 65 / var(--tw-text-opacity));
 }
 
 .text-primary {
@@ -1963,25 +1966,25 @@ button {
 }
 
 .shadow-\[0_2px_5px_rgba\(0\2c 0\2c 0\2c 0\.15\)\] {
-  --tw-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  --tw-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   --tw-shadow-colored: 0 2px 5px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-\[0_0_25px_0_rgba\(196\2c 206\2c 213\2c 0\.5\)\] {
-  --tw-shadow: 0 0 25px 0 rgba(196,206,213,0.5);
+  --tw-shadow: 0 0 25px 0 rgba(196, 206, 213, 0.5);
   --tw-shadow-colored: 0 0 25px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-\[0_0_50px_0_rgba\(196\2c 206\2c 213\2c 0\.2\)\] {
-  --tw-shadow: 0 0 50px 0 rgba(196,206,213,0.2);
+  --tw-shadow: 0 0 50px 0 rgba(196, 206, 213, 0.2);
   --tw-shadow-colored: 0 0 50px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-\[0_2px_22px_rgba\(0\2c 0\2c 0\2c 0\.16\)\] {
-  --tw-shadow: 0 2px 22px rgba(0,0,0,0.16);
+  --tw-shadow: 0 2px 22px rgba(0, 0, 0, 0.16);
   --tw-shadow-colored: 0 2px 22px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
@@ -2018,8 +2021,8 @@ button {
 }
 
 .title-stroke {
-  text-shadow: 3px 3px 0 #41C4FF, -1px -1px 0 #41C4FF, 1px -1px 0 #41C4FF,
-      -1px 1px 0 #41C4FF, 1px 1px 0 #41C4FF;
+  text-shadow: 3px 3px 0 #c11a41, -1px -1px 0 #c11a41, 1px -1px 0 #c11a41,
+    -1px 1px 0 #c11a41, 1px 1px 0 #c11a41;
 }
 
 /* Preloader css  */
@@ -2121,7 +2124,7 @@ button {
   -webkit-animation: borderRound 1200ms linear 0s infinite;
   animation: borderRound 1200ms linear 0s infinite;
   -webkit-animation-delay: 2000ms;
-          animation-delay: 2000ms;
+  animation-delay: 2000ms;
 }
 
 .preloaded .loader--border {
@@ -2205,7 +2208,7 @@ button {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-  --tw-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+  --tw-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   --tw-shadow-colored: 0 0 10px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   transition-property: all;
@@ -2275,19 +2278,19 @@ section {
 .outline-btn {
   border-width: 1px;
   --tw-border-opacity: 1;
-  border-color: rgb(0	168	244 / var(--tw-border-opacity));
+  border-color: rgb(193 26 65 / var(--tw-border-opacity));
 }
 
 .outline-btn:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .solid-btn {
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -2405,12 +2408,12 @@ section {
 
 button.is-checked {
   --tw-text-opacity: 1;
-  color: rgb(0	168	244 / var(--tw-text-opacity));
+  color: rgb(193 26 65 / var(--tw-text-opacity));
 }
 
 .dark button.is-checked {
   --tw-text-opacity: 1;
-  color: rgb(0	168	244 / var(--tw-text-opacity));
+  color: rgb(193 26 65 / var(--tw-text-opacity));
 }
 
 .hero__layer--img.four {
@@ -2475,10 +2478,10 @@ button.is-checked {
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.dark .offcanvas__close--btn::before, .dark 
-.offcanvas__close--btn::after, .dark 
-.offcanvas__sub_menu_toggle::before, .dark 
-.offcanvas__sub_menu_toggle::after {
+.dark .offcanvas__close--btn::before,
+.dark .offcanvas__close--btn::after,
+.dark .offcanvas__sub_menu_toggle::before,
+.dark .offcanvas__sub_menu_toggle::after {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
@@ -2518,7 +2521,7 @@ button.is-checked {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.active + .modal_popup_overlay {
+.active+.modal_popup_overlay {
   visibility: visible;
   opacity: 0.3;
 }
@@ -2546,7 +2549,7 @@ button.is-checked {
 .swiper-pagination-bullet-active {
   width: 2.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
 }
 
 /* Blog */
@@ -2573,25 +2576,25 @@ button.is-checked {
 
 /* Home two menu nav css */
 
-.menu__nav--item:hover > span:last-child {
+.menu__nav--item:hover>span:last-child {
   visibility: visible;
   opacity: 1;
 }
 
-[dir="ltr"] .menu__nav--item:hover > span:last-child {
+[dir="ltr"] .menu__nav--item:hover>span:last-child {
   right: 1.25rem;
 }
 
-[dir="rtl"] .menu__nav--item:hover > span:last-child {
+[dir="rtl"] .menu__nav--item:hover>span:last-child {
   left: 1.25rem;
 }
 
 .menu__nav--item:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
 }
 
-.menu__nav--item:hover svg, 
+.menu__nav--item:hover svg,
 .mobile--menu__nav--item:hover svg {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2613,11 +2616,11 @@ button.is-checked {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.menu--visible .toggle__navigation--button span, 
-.menu--visible .toggle__navigation--button span::after, 
+.menu--visible .toggle__navigation--button span,
+.menu--visible .toggle__navigation--button span::after,
 .menu--visible .toggle__navigation--button span::before {
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
 }
 
 .toggle__navigation--button span::after,
@@ -2669,10 +2672,10 @@ button.is-checked {
   padding-right: calc(1rem + 20px);
 }
 
-.toggle__navigation ul li .toggle__nav--menu--label-wrapper:hover, 
+.toggle__navigation ul li .toggle__nav--menu--label-wrapper:hover,
 .toggle__navigation ul li.active .toggle__nav--menu--label-wrapper {
   --tw-text-opacity: 1;
-  color: rgb(0	168	244 / var(--tw-text-opacity));
+  color: rgb(193 26 65 / var(--tw-text-opacity));
 }
 
 .toggle__nav--menu--label-wrapper::before {
@@ -2681,13 +2684,10 @@ button.is-checked {
 
 .toggle__navigation ul li .toggle__nav--menu--label-wrapper::before {
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
 }
 
-.toggle__navigation.menu--visible
-  ul
-  li.active
-  .toggle__nav--menu--label-wrapper::before {
+.toggle__navigation.menu--visible ul li.active .toggle__nav--menu--label-wrapper::before {
   transform: translateX(-3px) translateY(-50%) scaleY(1);
   transition: transform 0.15s 0.3s;
 }
@@ -2704,74 +2704,38 @@ button.is-checked {
   transition: transform 0.2s;
 }
 
-.toggle__navigation.menu--visible
-  ul
-  li:first-of-type
-  .toggle__nav--menu--label-wrapper::after,
-.toggle__navigation.menu--visible
-  ul
-  li:first-of-type
-  .toggle__nav--menu--label {
+.toggle__navigation.menu--visible ul li:first-of-type .toggle__nav--menu--label-wrapper::after,
+.toggle__navigation.menu--visible ul li:first-of-type .toggle__nav--menu--label {
   -webkit-animation-delay: 0.05s;
   animation-delay: 0.05s;
 }
 
-.toggle__navigation.menu--visible
-  ul
-  li:nth-of-type(2)
-  .toggle__nav--menu--label-wrapper::after,
-.toggle__navigation.menu--visible
-  ul
-  li:nth-of-type(2)
-  .toggle__nav--menu--label {
+.toggle__navigation.menu--visible ul li:nth-of-type(2) .toggle__nav--menu--label-wrapper::after,
+.toggle__navigation.menu--visible ul li:nth-of-type(2) .toggle__nav--menu--label {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.toggle__navigation.menu--visible
-  ul
-  li:nth-of-type(3)
-  .toggle__nav--menu--label-wrapper::after,
-.toggle__navigation.menu--visible
-  ul
-  li:nth-of-type(3)
-  .toggle__nav--menu--label {
+.toggle__navigation.menu--visible ul li:nth-of-type(3) .toggle__nav--menu--label-wrapper::after,
+.toggle__navigation.menu--visible ul li:nth-of-type(3) .toggle__nav--menu--label {
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 }
 
-.toggle__navigation.menu--visible
-  ul
-  li:nth-of-type(4)
-  .toggle__nav--menu--label-wrapper::after,
-.toggle__navigation.menu--visible
-  ul
-  li:nth-of-type(4)
-  .toggle__nav--menu--label {
+.toggle__navigation.menu--visible ul li:nth-of-type(4) .toggle__nav--menu--label-wrapper::after,
+.toggle__navigation.menu--visible ul li:nth-of-type(4) .toggle__nav--menu--label {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-.toggle__navigation.menu--visible
-  ul
-  li:nth-of-type(5)
-  .toggle__nav--menu--label-wrapper::after,
-.toggle__navigation.menu--visible
-  ul
-  li:nth-of-type(5)
-  .toggle__nav--menu--label {
+.toggle__navigation.menu--visible ul li:nth-of-type(5) .toggle__nav--menu--label-wrapper::after,
+.toggle__navigation.menu--visible ul li:nth-of-type(5) .toggle__nav--menu--label {
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
 }
 
-.toggle__navigation.menu--visible
-  ul
-  li:nth-of-type(6)
-  .toggle__nav--menu--label-wrapper::after,
-.toggle__navigation.menu--visible
-  ul
-  li:nth-of-type(6)
-  .toggle__nav--menu--label {
+.toggle__navigation.menu--visible ul li:nth-of-type(6) .toggle__nav--menu--label-wrapper::after,
+.toggle__navigation.menu--visible ul li:nth-of-type(6) .toggle__nav--menu--label {
   -webkit-animation-delay: 0.28s;
   animation-delay: 0.28s;
 }
@@ -2812,7 +2776,7 @@ button.is-checked {
   opacity: 1;
 }
 
-.toggle__nav--menu-icon > svg {
+.toggle__nav--menu-icon>svg {
   width: 1.1rem;
 }
 
@@ -2969,7 +2933,7 @@ button.is-checked {
 .before\:bg-accent1::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
 }
 
 .before\:bg-\[\#79DAB9\]::before {
@@ -3037,7 +3001,7 @@ button.is-checked {
 .before\:clip-polygon::before {
   content: var(--tw-content);
   -webkit-clip-path: polygon(0 0, 46% 97%, 100% 0);
-          clip-path: polygon(0 0, 46% 97%, 100% 0);
+  clip-path: polygon(0 0, 46% 97%, 100% 0);
 }
 
 .after\:absolute::after {
@@ -3144,7 +3108,7 @@ button.is-checked {
 .after\:border-accent1::after {
   content: var(--tw-content);
   --tw-border-opacity: 1;
-  border-color: rgb(0	168	244 / var(--tw-border-opacity));
+  border-color: rgb(193 26 65 / var(--tw-border-opacity));
 }
 
 .after\:bg-white::after {
@@ -3162,7 +3126,7 @@ button.is-checked {
 .after\:bg-accent1::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
 }
 
 .after\:opacity-0::after {
@@ -3194,7 +3158,7 @@ button.is-checked {
 
 .hover\:bg-accent1:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-primary:hover {
@@ -3213,7 +3177,7 @@ button.is-checked {
 
 .hover\:text-accent1:hover {
   --tw-text-opacity: 1;
-  color: rgb(0	168	244 / var(--tw-text-opacity));
+  color: rgb(193 26 65 / var(--tw-text-opacity));
 }
 
 .hover\:text-primary:hover {
@@ -3231,13 +3195,13 @@ button.is-checked {
 }
 
 .hover\:shadow-\[0_0_100px_0_rgba\(196\2c 206\2c 213\2c 0\.7\)\]:hover {
-  --tw-shadow: 0 0 100px 0 rgba(196,206,213,0.7);
+  --tw-shadow: 0 0 100px 0 rgba(196, 206, 213, 0.7);
   --tw-shadow-colored: 0 0 100px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:shadow-\[0_0_150px_0_rgba\(196\2c 206\2c 213\2c 0\.7\)\]:hover {
-  --tw-shadow: 0 0 150px 0 rgba(196,206,213,0.7);
+  --tw-shadow: 0 0 150px 0 rgba(196, 206, 213, 0.7);
   --tw-shadow-colored: 0 0 150px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
@@ -3616,7 +3580,7 @@ button.is-checked {
 
 .dark .dark\:bg-accent1 {
   --tw-bg-opacity: 1;
-  background-color: rgb(0	168	244 / var(--tw-bg-opacity));
+  background-color: rgb(193 26 65 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:bg-gray-800 {
@@ -3674,19 +3638,19 @@ button.is-checked {
 }
 
 .dark .dark\:shadow-\[-10px_0_20px_0_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
-  --tw-shadow: -10px 0 20px 0 rgba(0,0,0,0.1);
+  --tw-shadow: -10px 0 20px 0 rgba(0, 0, 0, 0.1);
   --tw-shadow-colored: -10px 0 20px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .dark .dark\:shadow-\[0_0_20px_0_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
-  --tw-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+  --tw-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
   --tw-shadow-colored: 0 0 20px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .dark .dark\:shadow-\[0_0_50px_0_rgba\(0\2c 0\2c 0\2c 0\.2\)\] {
-  --tw-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
+  --tw-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
   --tw-shadow-colored: 0 0 50px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
@@ -3698,7 +3662,7 @@ button.is-checked {
 
 .dark .dark\:hover\:text-accent1:hover {
   --tw-text-opacity: 1;
-  color: rgb(0	168	244 / var(--tw-text-opacity));
+  color: rgb(193 26 65 / var(--tw-text-opacity));
 }
 
 .dark .dark\:hover\:text-white:hover {
@@ -3707,7 +3671,7 @@ button.is-checked {
 }
 
 .dark .dark\:hover\:shadow-\[0_0_50px_0_rgba\(0\2c 0\2c 0\2c 0\.2\)\]:hover {
-  --tw-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
+  --tw-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
   --tw-shadow-colored: 0 0 50px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
